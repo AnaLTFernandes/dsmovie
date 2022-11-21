@@ -39,12 +39,12 @@ function setPaginationArrows(pagesTotal, currentPage) {
 
 	backPage.addEventListener("click", (e) => {
 		e.preventDefault();
-		location.href = `http://localhost:5500/index.html?page=${currentPage - 1}`;
+		location.href = `https://analtfernandes.github.io/dsmovie?page=${currentPage - 1}`;
 	});
 
 	nextPage.addEventListener("click", (e) => {
 		e.preventDefault();
-		location.href = `http://localhost:5500/index.html?page=${currentPage + 1}`;
+		location.href = `https://analtfernandes.github.io/dsmovie?page=${currentPage + 1}`;
 	});
 }
 
