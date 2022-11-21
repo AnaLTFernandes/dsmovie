@@ -13,7 +13,7 @@ function showForm() {
 
 	form.addEventListener("submit", (e) => {
 		e.preventDefault();
-		location.href = "http://localhost:5500/index.html";
+		location.href = "https://analtfernandes.github.io/dsmovie";
 	});
 
 	const formElement =
