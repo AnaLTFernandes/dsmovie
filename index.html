@@ -1,222 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DSMovie</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto DSMovie</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
+		/>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
 
-    <link rel="stylesheet" href="css/styles.css">
+	<body>
+		<header>
+			<nav class="container">
+				<h1>DSMovie</h1>
+				<div class="dsmovie-contact-container">
+					<img src="img/github.svg" alt="Github" />
+					<a href="https://github.com/AnaLTFernandes">/anafernandes</a>
+				</div>
+			</nav>
+		</header>
 
-</head>
+		<main>
+			<section id="dsmovie-card-list" class="container">
+				<div class="dsmovie-pagination-container">
+					<div class="dsmovie-pagination-box">
+						<button>
+							<img src="img/arrow.svg" alt="Voltar" />
+						</button>
+						<p>1 de 1</p>
+						<button class="dsmovie-flip-horizontal">
+							<img src="img/arrow.svg" alt="Próxima"/>
+						</button>
+					</div>
+				</div>
 
-<body>
-    <header>
-        <nav class="container">
-            <h1>DSMovie</h1>
-            <div class"dsmovie-contact-container">
-                <img src="img/github.svg" alt="Github">
-                <a href="https://github.com/AnaLTFernandes">/anafernandes</a>
+				<div class="row">
+                    <h1>Carregando...<h1>
+				</div>
+			</section>
+		</main>
+	</body>
 
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <section id="dsmovie-card-list" class="container">
-
-
-            <div class="dsmovie-pagination-container">
-                <div class="dsmovie-pagination-box">
-                    <button disabled>
-                        <img src="img/arrow.svg" alt="Voltar">
-                    </button>
-                    <p>1 de 23</p>
-                    <button class="dsmovie-flip-horizontal">
-                        <img src="img/arrow.svg" alt="Próxima">
-                    </button>
-                </div>
-            </div>
-
-            <div class="row">
-
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jdHo3DKO6uOqVTT6h84HTIikuKQ.jpg" alt="A órfã">
-                        <div class="dsmovie-card-description">
-                            <h3>A órfã</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/fpEYSEpbPAQMppYRyRA66EZoWCX.jpg" alt="Star Wars: Episódio I - A ameaça fantasma">
-                        <div class="dsmovie-card-description">
-                            <h3>Star Wars: Episódio I - A ameaça fantasma</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/3tvwsRSIDgwJuaGdh67XZ942UMy.jpg" alt="Arraste-me para o inferno">
-                        <div class="dsmovie-card-description">
-                            <h3>Arraste-me para o inferno</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/pVVobDO8cezhVPvwD6EBUN0g3mt.jpg" alt="A torre negra">
-                        <div class="dsmovie-card-description">
-                            <h3>A torre negra</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg" alt="Entre facas e segredos">
-                        <div class="dsmovie-card-description">
-                            <h3>Entre facas e segredos</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/k0KEzkdLHtebX4Jhx7uXJqz34wQ.jpg" alt="Um contratempo">
-                        <div class="dsmovie-card-description">
-                            <h3>Um contratempo</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/6u6KIyDKojx7pGhCn0skRHdmqX3.jpg" alt="O bar">
-                        <div class="dsmovie-card-description">
-                            <h3>O bar</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-lg-4 col-xl-3 mb-3">
-                    <div class="dsmovie-card">
-                        <img src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/3WrR2rYX7nHWnBhWHLZptsJ2bEj.jpg" alt="O nevoeiro">
-                        <div class="dsmovie-card-description">
-                            <h3>O nevoeiro</h3>
-                            <div class="dsmovie-card-description-bottom">
-                                <h4>3.8</h4>
-                                <div>
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-full.svg" alt="Star">
-                                    <img src="img/star-half.svg" alt="Star">
-                                    <img src="img/star-empty.svg" alt="Star">
-                                </div>
-                                <p>10 avaliações</p>
-                                <a class ="dsmovie-btn" href="form.html">Avaliar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                
-            </div>
-
-        </section>
-    </main>
-
-</body>
+	<script src="./scripts/index.js" type="module"></script>
 </html>
