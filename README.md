@@ -4,7 +4,7 @@ Página web para a avaliação de filmes com layout responsivo.
 
 <div align=center>
  
-  ![DSMovie png](https://user-images.githubusercontent.com/97851922/203857805-bff76850-f082-4801-9cf8-4684b5ddc4f5.png)
+  ![DSMovie image](https://user-images.githubusercontent.com/97851922/203859677-33eb03a0-56dd-4b19-9c6d-befe25752934.png)
   
 </div>
 
