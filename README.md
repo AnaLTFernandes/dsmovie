@@ -1,5 +1,7 @@
 # :popcorn: DSMovie
 
+![Badge Finalizado](https://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=success&style=for-the-badge)
+
 Página web para a avaliação de filmes com layout responsivo.
 
 <div align=center>
@@ -7,8 +9,6 @@ Página web para a avaliação de filmes com layout responsivo.
   ![DSMovie image](https://user-images.githubusercontent.com/97851922/203859677-33eb03a0-56dd-4b19-9c6d-befe25752934.png)
   
 </div>
-
-Deixe sua avaliação aqui: https://analtfernandes.github.io/dsmovie/
 
 <br />
 
